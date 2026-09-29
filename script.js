@@ -45,7 +45,7 @@ function renderWorldCard(elId, badgeText, ratio){
   el.innerHTML = `
     <div class="sun"></div>
     <div class="cloud c1"></div><div class="cloud c2"></div>
-    <div class="title">言の葉</div>
+    <div class="title">ことのは</div>
     <div class="hillrow">${hills}</div>
     <div class="hillrow" style="bottom:56px;">${trees}</div>
     <div class="cityrow">${city}</div>
