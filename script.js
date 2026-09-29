@@ -1,7 +1,7 @@
 const STAGE_SIZE = 45;
 const NUM_STAGES = Math.ceil(WORDS.length / STAGE_SIZE);
 const DAILY_GOAL = 45;
-const AREA_NAMES = ["ことのはの芽","言の葉の小径","物思いの森","恋歌の泉","雅の館","宮中の間","千年の社"];
+const AREA_NAMES = ["ことのはの芽","ことのはの小径","物思いの森","恋歌の泉","雅の館","宮中の間","千年の社"];
 const COLLECTION_POOL = ["🌸","📜","🎎","🏯","🪭","⛩️","🎏","🍃","🪷","🕊️","🖌️","🀄","🎐","🏮","👘","🎴","🌕","🦢","🍵","🎋","🧧","💮","🌾","🍁","🏆","🎁","💎","👑"];
 const UNLOCK_EVERY = 5;
 const MASCOT_LINES = {
