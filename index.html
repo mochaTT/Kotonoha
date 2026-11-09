@@ -39,7 +39,13 @@
       <div class="bar"><span id="homeTodayBar" style="width:0%"></span></div>
     </div>
     <div class="card">
-      <h3>回答方式</h3>
+      <h3>出題モード</h3>
+      <div class="seg" id="modeSeg">
+        <button data-mode="normal" onclick="setMode(false)">通常</button>
+        <button data-mode="split" onclick="setMode(true)">意味を分割</button>
+      </div>
+      <div class="small modedesc" id="homeModeDesc"></div>
+      <h3 style="margin-top:16px;">回答方式</h3>
       <div class="seg" id="answerSeg">
         <button data-ans="choice" onclick="setAnswerMode('choice')">4択</button>
         <button data-ans="card" onclick="setAnswerMode('card')">カード（スワイプ）</button>
@@ -69,6 +75,7 @@
       <div class="small prompt" id="studyPrompt">この単語の意味として最も近いものを選んでください</div>
       <div class="cardcenter">
         <div class="word-big"><span id="studyWord">word</span></div>
+        <div><span class="sensebadge" id="studySense" style="display:none;"></span></div>
       </div>
       <div class="cardmean" id="cardMean" style="display:none;"></div>
       <div class="cardhint" id="cardHint" style="display:none;"></div>

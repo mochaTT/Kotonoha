@@ -94,6 +94,8 @@ button{font-family:inherit; cursor:pointer; border:none; -webkit-tap-highlight-c
 .seg button.active{background:var(--green); color:#fff; box-shadow:var(--shadow);}
 .modedesc{margin-top:10px; line-height:1.5;}
 
+.sensebadge{display:inline-block; margin-top:10px; background:var(--yellow-soft); color:#7a5a00; font-size:12px; font-weight:800; padding:4px 12px; border-radius:999px;}
+
 /* ---- swipe card ---- */
 .studyhead .tag{min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 .studyhead .chips{display:flex; gap:6px; align-items:center; flex:none;}
@@ -170,6 +172,7 @@ nav button.active{color:#fff; background:rgba(255,255,255,.14);}
     --card:#22302d; --ink:#eef3f0; --ink-soft:#a9b8b2;
   }
   :root:not([data-theme="light"]) .seg{background:#182320;}
+  :root:not([data-theme="light"]) .sensebadge{background:#4a3f12; color:#ffe9a0;}
   :root:not([data-theme="light"]) .cardmean{border-top-color:#2f4540;}
   body{background:#182320;}
 }
@@ -177,4 +180,5 @@ nav button.active{color:#fff; background:rgba(255,255,255,.14);}
   --card:#22302d; --ink:#eef3f0; --ink-soft:#a9b8b2;
 }
 :root[data-theme="dark"] .seg{background:#182320;}
+:root[data-theme="dark"] .sensebadge{background:#4a3f12; color:#ffe9a0;}
 :root[data-theme="dark"] .cardmean{border-top-color:#2f4540;}
